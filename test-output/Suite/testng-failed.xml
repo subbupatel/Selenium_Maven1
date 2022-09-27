@@ -14,16 +14,6 @@
           <include name="DataSetup"/>
         </methods>
       </class> <!-- testcases.HomeTest -->
-      <class name="testcases.SimplilearnLoginTest">
-        <methods>
-          <include name="DataClean"/>
-          <include name="Test2" invocation-numbers="0"/>
-          <include name="TearDown"/>
-          <include name="Test3"/>
-          <include name="Setup"/>
-          <include name="DataSetup"/>
-        </methods>
-      </class> <!-- testcases.SimplilearnLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

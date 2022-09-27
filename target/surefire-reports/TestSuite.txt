@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 10, Time elapsed: 3.656 s <<< FAILURE! - in TestSuite
-testcases.SimplilearnLoginTest.DataSetup  Time elapsed: 1.56 s  <<< FAILURE!
-java.io.FileNotFoundException: exceldata.xlsx (The system cannot find the file specified)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 107.198 s - in TestSuite
