@@ -1,6 +1,7 @@
 package testcases;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -15,6 +16,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
+
+@Listeners(ListnerExample.class)
 
 public class SimplilearnLoginTest extends BaseClass {
 
@@ -31,7 +34,7 @@ public class SimplilearnLoginTest extends BaseClass {
         	WebElement Error = driver.findElement(By.id("msg_box"));
     		
         	 String ActError = Error.getText();
-             String ExpError = "The email or paasword you have entered is invalid.";
+             String ExpError = "The email or paasword you have entered is invalid";
              
           //  Assert.assertTrue(Error.isDisplayed());
        //    Assert.assertEquals(ActError, ExpError);
